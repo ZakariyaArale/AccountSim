@@ -1,11 +1,11 @@
 // Zakariya Arale
 // 01/11/2023
-/* We are require to make the code for an instant teller program
+/* We are require to make the code for a online banking program
    that simulates the typical transactions in a bank account
    NOTE: this program must be executed with the file Bank_Account.java
 */
 import java.util.*; 
-public class Instant_Teller extends ConsoleProgram
+public class Account_Sim extends ConsoleProgram
 {
     public void run()
     {
