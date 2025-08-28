@@ -41,7 +41,7 @@ public class Bank_Account
      */
     public void interest(double x)
     {
-        interest = x/100;
+        interest = (double)x / (double)100;
         balance = balance *(1 + (interest)); // This is where the interest rate will change the balence based on the value x
     }
     // We need in input a get method for the pin to verify a pin number
