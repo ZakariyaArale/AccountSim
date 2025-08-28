@@ -1,5 +1,5 @@
 // Zakariya Arale
-// 01/11/2023
+// 07/02/2025
 /* We are require to make the code for a online banking program
    that simulates the typical transactions in a bank account
    NOTE: this program must be executed with the file Bank_Account.java
@@ -43,15 +43,8 @@ public class Account_Sim extends ConsoleProgram
                 Bank_Account b1 = storage [counter - 1];
                 if(b1.getPin() != pinNumber) // If the pin number is not correct, then the code will pause
                 {
-                    System.out.print("Invalid pin number please try again. Press stop and run again");
-                    try 
-                    {
-                        Thread.sleep(50000);
-                    } 
-                    catch (InterruptedException e) 
-                    {
-                        e.printStackTrace();
-                    }
+                    System.out.print("Invalid pin number please try again.");
+                    continue;
                 }
             }
             // The code will contiue to run if it is a new account or if everything is verified
